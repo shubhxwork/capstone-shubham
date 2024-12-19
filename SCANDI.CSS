@@ -1,55 +1,119 @@
-nav .nav-head {
-  display: flex;
-  position: left;
-  align-items: right;
-  width: auto;
-  font-family: "Source Serif 4-SemiBold", Helvetica;
-  font-weight: 400;
-  color: #212121;
-  font-size: 42px;
+
+body {
+  margin: 0 20px;
+  
 }
 
-nav {
-  display: flex;
-  align-items: left;
-  gap:  200px;
-  padding: 20px 0px;
-  position: right;
-  width: 100%;
-  height: auto;
-}
-
-nav .navbuttons {
+nav { 
   display: flex;
   justify-content: space-between;
-  gap: 40px;
-  width: auto;
-  font-family: "Public Sans-Regular", Helvetica;
-  font-weight: 00;
-  color: #212121;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.nav-head{
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 42px;
+  margin: 20px;
+  
+}
+.home{
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
   font-size: 28px;
-}
+  color: black
+  
 
-.label {
-  width: 1344px;
-  height: 240px;
-  margin-top: 48px;
 }
-
-.title {
-  position: relative;
-  margin-top: 96px;
-  width: 1344px;
-  font-family: "Public Sans-Bold", Helvetica;
+.navbuttons{
+  word-spacing: 20px;
+}
+.tit-le {
+  margin-top: 100px;
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
   font-weight: 700;
-  color: #212121;
   font-size: 120px;
+  font-style: normal;
   text-align: center;
-  margin-bottom: 52px;
+  margin-bottom: 20px;
+  width: auto;
+  height: auto;
+}
+.badi-img {
+  width: 100%;
+  height:auto ;
+  margin-bottom: 96px;
+  border-radius: 8px;
+
+}
+
+.navbuttons:hover{
+  cursor: pointer;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 48px;
+}
+
+.grid-img{
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+.grid h1{
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 20px;
+
+}
+.grid p{
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 10px;
+  color: #2121219E;
+}
+.description{
+  margin-top: 96px;
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  text-align: center;
+  font-size: 48px;
+  padding: 96px;
+}
+
+.spacer {
+  background-color: white;
+  width: 648px;
+  height: 154px;
+}
+
+.welcome {
+  display: flex;
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 24px;
+  width: 100%;
+  height: auto;
+  line-height: 32px
+
 }
 
 
 
 
 
-
+ 
