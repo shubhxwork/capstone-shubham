@@ -93,7 +93,6 @@ nav {
   font-size: 48px;
   padding: 96px;
 }
-
 .spacer {
   background-color: white;
   width: 648px;
@@ -101,17 +100,15 @@ nav {
 }
 
 .welcome {
-  display: flex;
   font-family: "Public Sans", serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  display: flex;
   font-size: 24px;
   width: 100%;
   height: auto;
   line-height: 32px
-
 }
-
 
 
 
